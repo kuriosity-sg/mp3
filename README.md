@@ -2,6 +2,8 @@
 
 This library is an Arduino library for [YWRobot MP3 Module with Speaker](https://www.kuriosity.sg/mp3-module-with-speaker/) from [www.kuriosity.sg](https://www.kuriosity.sg)
 
+The library uses Software Serial on pins 2 (RX) and 3 (TX) for communication with the MP3 Module. Connect TXD from MP3 Module to pin 2 and RXD from MP3 Module to pin 3 of the Arduino.
+
 ## Supported Functions
 - void begin();                             // Begin function
 - void play();								              // Play
